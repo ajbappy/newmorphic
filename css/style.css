@@ -1,0 +1,93 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width:100vw;
+    height: 100vh;
+    color: #555;
+    background-color: #ecf0f3;
+}
+.login-form{
+    width: 300px;
+    height: 500px;
+    padding:40px 30px 30px 30px;
+    background-color:#ecf0f3;
+    border-radius:30px;
+    box-shadow:10px 10px 15px #cbced1,
+              -10px -10px 15px white;
+    }
+.logo{
+      background: url(../logo.jpg);
+      width:80px;
+      height:80px;
+      border-radius:50%;
+      margin:0 auto;
+      box-shadow:0px 0px 1px #5f5f5f,
+                 8px 8px 10px #a7aaaf,
+                -8px -8px 10px white;
+    }
+.title {
+      transform: uppercase;
+      padding-top: 15px;
+      font-size: 30px;
+      text-align: center;
+    }
+.sub-title {
+      padding-top: 10px;
+      font-size: 20px;
+      text-align: center;
+    }
+#user-input{
+      border: none;
+      outline: none;
+      padding:15px 10px;
+      margin-top:30px ;
+      border-radius: 10px;
+     box-shadow:inset 10px 10px 15px #cbced1,
+           inset -10px -10px 15px white;
+    }
+#pass-input{
+      border: none;
+      outline: none;
+      padding: 15px 10px;
+      margin-top:20px;
+      border-radius: 10px;
+      box-shadow:inset 10px 10px 15px #cbced1,
+          inset -10px -10px 15px white;
+    }
+.button{
+  margin:10px auto;
+  padding:15px;
+  letter-spacing:2px;
+  border: none;
+  outline: none;
+  border-radius:15px;
+  background-color:green;
+  color:white;
+  cursor:pointer;
+  transform: 2s linear;
+    }
+.button:hover{
+  color:red;
+  background-color: dodgerblue;
+}
+.button:active{
+  color:yellow;
+  background-color:pink;
+}
+
+
+
+.forgot {
+     text-align:center;
+     padding: 10px;
+     font-size: 16px;
+}
+.forgot a {
+     text-decoration: none; 
+}
