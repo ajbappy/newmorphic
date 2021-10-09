@@ -1,2 +1,2 @@
 # newmorphic
-only for practice purpose 
+https://ajbappy.github.io/newmorphic/
